@@ -1,0 +1,33 @@
+{
+  "name": "branch-name-github-action",
+  "version": "1.0.0",
+  "description": "Export branch name as environment variable",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "package": "ncc build index.js -o dist",
+    "test": "eslint index.js && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelonoel/branch-name.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript"
+  ],
+  "author": "Aaron Noel De Leon <here@nelo.is>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelonoel/branch-name/issues"
+  },
+  "homepage": "https://github.com/nelonoel/branch-name#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5",
+    "eslint": "^6.3.0"
+  }
+}

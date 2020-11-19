@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: npm ci
-    - uses: nelonoel/branch-name@v1
+    - uses: nelonoel/branch-name@v1.0.1
     # Use branch name for whatever purpose
     - run: echo ${BRANCH_NAME}
 ```

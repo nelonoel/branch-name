@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - run: npm ci
     - uses: nelonoel/branch-name@v1.0.1
     # Use branch name for whatever purpose
